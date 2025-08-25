@@ -1,6 +1,8 @@
 # Lexical-Analyzer
 Implementing minimalistic version of a Lexer given the input C program. Get a feel of compiler design
+
 ![c-project-lexical-analyser](https://github.com/user-attachments/assets/2636678f-2e8c-480d-bb60-6fb4f92e2ea7)
+
 # Introduction
 Lexical Analyzer Project in C : In computer science, lexical analysis is the process of converting a sequence of characters into a sequence of tokens. A program or function which performs lexical analysis is called a lexical analyzer, lexer, or scanner. A lexer often exists as a single function which is called by a parser or another function. Some popular tools like Lex and Yacc are examples of practical usage of lexical analysis. 
 
@@ -13,10 +15,13 @@ A token is a string of characters, categorized according to the rules as a symbo
 # Requirement Details
 Given the input C program, your lexical analyzer should do the following:
 
-It should identify all the keywords
-It should identify all the Identifiers.
-It should identify the literals, such as float , characters, string literals, decimals.
-It should identify the arrays.
+.It should identify all the keywords
+
+.It should identify all the Identifiers.
+
+.It should identify the literals, such as float , characters, string literals, decimals.
+
+.It should identify the arrays.
 # sample output
 ![la_1](https://github.com/user-attachments/assets/40b7f481-9d98-4f9d-96c9-7f6e7c2b1b4c)
 # Fig1: Usage
