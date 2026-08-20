@@ -21,7 +21,7 @@ int get_token(LEXICAL *lexi) {
         if (c == EOF) return failure;
     } while (isspace(c));// to check for whitespace
 
-     if(c == '#') // Preprocessor directive
+     if(c == '#') // Preprocessor directive and
      {
        unit i = 0;
        while(isspace(c) == 0)// to check for non-whitespace characters
