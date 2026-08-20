@@ -51,7 +51,7 @@ int get_token(LEXICAL *lexi) {
                  lexi->token[i++] = (char)c;
                  c = fgetc(lexi->fptr);
 
-                while(c != '"' && c != '\'' )// Check for end of string/character literal
+                while(c != '"' && c != '\'' )// Check for end of string/character literal and
                 {
                     lexi->token[i++] = (char)c;
                     c = fgetc(lexi->fptr);
