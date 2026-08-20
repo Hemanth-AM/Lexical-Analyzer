@@ -45,7 +45,7 @@ int get_token(LEXICAL *lexi) {
                c != ' ' && c != '\n' && c != '\t') // Check for valid identifier/number characters
         {
 
-            if(c == '"' || c == '\'')// Check for string or character literal
+            if(c == '"' || c == '\'')// Check for string or character literal and somthing
             {
                 unit i = 0;
                  lexi->token[i++] = (char)c;
