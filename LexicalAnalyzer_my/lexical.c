@@ -15,7 +15,7 @@ static const char* specialcharacters = " ,;{}()[]";
 int get_token(LEXICAL *lexi) {
     unit c;
 
-    // Skip whitespace and somthing and
+    // Skip whitespace and somthing
     do {
         c = fgetc(lexi->fptr);
         if (c == EOF) return failure;
